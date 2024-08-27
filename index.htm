@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOR COMBAT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>GOR COMBAT</h1>
+        <img src="apple.png" alt="Яблоко" id="apple" />
+        <p>Монеты: <span id="coins">0</span></p>
+        <button id="shopButton">Магазин</button>
+        <div id="shop" class="hidden">
+            <h2>Магазин</h2>
+            <div class="shop-item">
+                <p>Улучшение: +1 клик </p>
+                <button id="upgrade1">Купить (50 монет)</button>
+            </div>
+            <div class="shop-item">
+                <p>Улучшение: +2 клика</p>
+                <button id="upgrade2">Купить (100 монет)</button>
+            </div>
+            <div class="shop-item">
+                <p>Улучшение: +20 кликов</p>
+                <button id="upgrade3">Купить (1000 монет)</button>
+            </div>
+            <button id="closeShop">Закрыть магазин</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

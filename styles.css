@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f0f8ff, #e6e6fa);
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+h1 {
+    color: #333;
+}
+
+#apple {
+    width: 150px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#apple:hover {
+    transform: scale(1.1);
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+button {
+    background-color: #4CAF50; /* Зеленый */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #45a049; /* Темнее зеленый */
+    transform: scale(1.05);
+}
+
+#shop {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.shop-item {
+    margin-bottom: 10px;
+}
